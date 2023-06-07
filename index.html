@@ -1,122 +1,145 @@
-
-    <!DOCTYPE html>
+   <!DOCTYPE html>
 <html>
 <head>
   <title>Mi Portafolio Personal</title>
   <style>
-              body {
-                  font-family: Arial, sans-serif;
-                  margin: 0;
-                  padding: 0;
-              }
-              /* Estilos para la sección de inicio */
-              #inicio {
-                  background-color: #00FFE7;
-              }
-              h1 {
-                  font-size: 24px;
-                  color: #333;
-              }
-              p {
-                  font-size: 16px;
-                  color: #666;
-              }
+            /*Reset de estilos para el body */
+            body {
+                margin: 0px;
+                padding: 0;
+            }
+
+            /* Estilos generales para los encabezados */
+            h1, h2 {
+                margin: 22px;
+                padding: 0;
+                font-family: Arial, sans-serif; 
+                font-weight: bold;
+            }
+            
+            h1 {
+                margin-bottom: 20px;
+            } 
+
+            /* Estilos para la sección de inicio */
+            #inicio {
+                padding: 50px; 
+                background-color: #00FFE7;
+                text-align: center;
+            }
               
-              #inicio img {
-                  width: 150px; /* Ajusta el tamaño de la imagen según tus necesidades */
-                  height: 150px;
-                  border-radius: 50%;
-              }
-              /* Estilos para la sección de habilidades */
-              #habilidades {
-                  background-color:#818181;
-                  padding: 20px;
-              }
-              h2 {
-                  font-size: 20px;
-                  color: #333;
-              }
-              ul {
-                  list-style-type: disc;
-                  margin-left: 20px;
-              }
-              li {
-                  font-size: 16px;
-                  color: #666;
-              }
-              /* Estilos para la sección de proyectos */
-              #proyectos {
-                  background-color:#E8C0D7 ;             
-                  padding: 20px ;
-              }
-              /* Estilos para la sección de contacto */
-              #contacto {
-                  background-color: #333;
-                  padding: 20px;
-              }
-              ul {
-                  list-style-type: none;
-                  padding: 0;
-              }
-              li {
-                  font-size: 16px;
-                  color: #666;
-                  margin-bottom: 10px;
-              }
-    </style>
-  </head>
-  <body>
-  <!-- Código HTML del portafolio -->
-</body>
-</html>
+            #inicio img {
+                width: 150px; /* Ajusta el ancho de la imagen según tus necesidades */
+                height: 150px; /* Ajusta la altura de la imagen según tus necedidades */
+                border-radius: 50%; /* Opcional: agregar bordes redondeados a la imágen */
+                display: inline-block;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            /* Estilos para la sección de habilidades */
+            #habilidades {
+                background-color:#818181;
+                padding: 50px;
+            }
+            /* Estilos para lista de habilidades */
+            #habilidades ul {
+                list-style-type: none;
+            }
+
+            /* Estilos para la sección de proyectos */
+            #proyectos {
+                background-color:#E8C0D7 ;             
+                padding: 50px ;
+            }
+
+            /* Estilos para la lista de proyectos */
+            #proyectos ul {
+                list-style-type: none;
+            }
+
+            /* Estilos para la sección de contacto */
+            #contacto {
+                background-color: #333;
+                padding: 50px;
+            }
+            /*Estilos para la lista de contacto*/
+            #contacto ul {
+                list-style-type: none;        
+            }
+
+            /*Estilos generales para los párrafos y listas */ 
+            p, ul {
+                font-family: Arial, sans-serif;
+                font-size: 16px;
+                color: #333;
+            }
+
+            p {
+                max-width: 300px;
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            }
+            /*Estilos para los elementos de lista */
+            li {
+                display: inline;
+                margin-right: 10px;
+            }
   </style>
-  </style>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-  <!-- Sección de inicio -->
-  <section id="inicio"> 
-                  <img src= https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=878&q=80"Logo de mi portafolio">
-                  <h1>LUIS FERNANDO SUPA M.</h1>
-                  <p>Apasionado estudiante de programación con experiencia en ventas y logística en la industria de belleza y moda.</p>
-    <ul>
-        <!-- Sección de redes sociales -->
-        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-        <li><a href="https://www.twitter.com/">Twitter</a></li>
-        <li><a href="https://www.instagram.com/">GitHub</a></li>  
-    </ul>
-  </section>
+    <!-- Sección de inicio -->
+    <section id="inicio"> 
+        <img src= https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=878&q=80"Logo de mi portafolio">
+        <h1>LUIS FERNANDO SUPA M.</h1>
+        <p>Apasionado estudiante de programación con experiencia en ventas y logística en la industria de belleza y moda.</p>
+      <ul>
+          <!-- Enlaces a redes sociales -->
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+          <li><a href="https://www.twitter.com/">Twitter</a></li>
+          <li><a href="https://www.instagram.com/">GitHub</a></li>  
+          <!--Agrega más enlaces a tus redes sociales aquí-->
+      </ul>
+    </section>
 
-  <!-- Sección de habilidades -->
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Ventas online</li>
-      <li>Proporcionar información al público</li>
-      <li>Exposiciones de moda</li>
-      <!-- Agrega más habilidades relevantes -->
-    </ul>
-  </section>
+    <!-- Sección de habilidades -->
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+          <li>Ventas online</li>
+          <li>Proporcionar información al público</li>
+          <li>Exposiciones de moda</li>
+        <!-- Agrega más habilidades relevantes -->
+      </ul>
+    </section>
 
-  <!-- Sección de proyectos -->
-  <section id="proyectos">
-    <h2>Proyectos</h2>
-    <ul>
-      <li>Generar ventas</li>
-      <li>Atención al público</li>
-      <li>Trabajo en equipo</li>
-      <!-- Agrega más proyectos destacados -->
-    </ul>
-  </section>
+    <!-- Sección de proyectos -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <ul>
+          <li>Generar ventas</li>
+          <li>Atención al público</li>
+          <li>Trabajo en equipo</li>
+        <!-- Agrega más proyectos destacados -->
+      </ul>
+    </section>
 
-  <!-- Sección de contacto -->
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Puedes contactarme a través de:</p>
-    <ul>
-      <li>Email: luisfsupama@gmail.com</li>
-      <li>Teléfono: 123-456-7890</li>
-      <!-- Agrega más detalles de contacto -->
-    </ul>
-  </section>
-</body>
-</html>
+    <!-- Sección de contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes contactarme a través de los siguientes medios:</p>
+      <ul>
+          <li>Email: luisfsupama@gmail.com</li>
+          <li>Teléfono: 123-456-7890</li>
+          <li>Redes sociales: Enlace a tus perfiles en redes sociales</li>
+      </ul>
+    </section>
+  </body>
+  </html>
